@@ -1,0 +1,4 @@
+CIPRES_THREADSPP=8
+CIPRES_NP=1
+running:
+mafft --progress /expanse/projects/ngbt/backend/expanse_workspace/NGBW-JOB-MAFFT_XSEDE-B1FBC19FA66742BB9AA9ACB3176BC036/progress.mafft --thread 8 --inputorder --ep 0.0 --auto input.fasta

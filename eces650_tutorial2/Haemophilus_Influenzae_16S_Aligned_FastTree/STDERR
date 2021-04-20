@@ -1,0 +1,21 @@
+FastTree Version 2.1.10 Double precision (No SSE3), OpenMP (4 threads)
+Alignment: infile
+Nucleotide distances: Jukes-Cantor Joins: balanced Support: SH-like 1000
+Search: Normal+2nd +NNI (10 rounds) +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=0.75 refresh=0.80
+ML Model: Jukes-Cantor, CAT approximation with 20 rate categories
+Initial topology in 0.01 seconds
+Refining topology: 10 rounds ME-NNIs, 2 rounds ME-SPRs, 9 rounds ML-NNIs
+      0.10 seconds: SPR round   2 of   2, 1 of 40 nodes
+Total branch-length 0.952 after 0.20 sec
+      0.21 seconds: ML NNI round 1 of 9, 1 of 19 splits
+ML-NNI round 1: LogLk = -4629.132 NNIs 4 max delta 0.19 Time 0.24
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.669 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -4391.288 NNIs 0 max delta 0.00 Time 0.27
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 3: LogLk = -4391.288 NNIs 0 max delta 0.00 Time 0.29 (final)
+Optimize all lengths: LogLk = -4391.288 Time 0.30
+Total time: 0.36 seconds Unique: 21/42 Bad splits: 0/18
